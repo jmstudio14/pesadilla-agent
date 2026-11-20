@@ -1,0 +1,11 @@
+{
+  "task_id": "demo-001",
+  "agent_id": "example-coding-agent",
+  "stage": "result",
+  "task": "Implement a small REST endpoint",
+  "plan": ["Define the contract", "Implement the endpoint", "Add tests"],
+  "result": "Endpoint implemented and tests executed",
+  "requirements": ["Valid input returns HTTP 200", "Invalid input returns HTTP 400"],
+  "evidence": ["node --test: 8 tests passed"],
+  "changed_files": ["src/routes/example.js"]
+}
