@@ -1,0 +1,10 @@
+{
+  "name": "pesadilla-agent",
+  "version": "0.1.0",
+  "description": "Portable, provider-agnostic quality gate and continuous-improvement supervisor for AI agents.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "bin": { "pesadilla": "./src/cli.js" },
+  "scripts": { "test": "node --test", "check": "node --check src/cli.js && node --check src/audit.js && node --check src/provider.js" },
+  "license": "MIT"
+}
